@@ -1,0 +1,20 @@
+[
+    {
+        "blogImgSrc": "img/blog/img1.jpg",
+        "blogImgAlt": "Alt text",
+        "blogName": "7 ways to decor your home",
+        "blogLink": "link"
+    },
+    {
+        "blogImgSrc": "img/blog/img1.jpg",
+        "blogImgAlt": "Alt text",
+        "blogName": "5 ways to decor your home",
+        "blogLink": "link"
+    },
+    {
+        "blogImgSrc": "img/blog/img1.jpg",
+        "blogImgAlt": "Alt text",
+        "blogName": "6 ways to decor your home",
+        "blogLink": "link"
+    }
+]

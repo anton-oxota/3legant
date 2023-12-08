@@ -1,0 +1,146 @@
+[
+    {
+        "productImgSrc": "img/product/item.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "new"
+            },
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 5,
+        "productName": "Loveseat Sofa",
+        "productPrice": {
+            "current": "99.00",
+            "old": "199.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/basket.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 3,
+        "productName": "Basket",
+        "productPrice": {
+            "current": "25.00",
+            "old": "50.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/lamp.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "new"
+            }
+        ],
+        "productRate": 4,
+        "productName": "Lamp",
+        "productPrice": {
+            "current": "99.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/lamp-2.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 3,
+        "productName": "Table Lamp",
+        "productPrice": {
+            "current": "99.00",
+            "old": "199.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/item.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "new"
+            },
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 2,
+        "productName": "Loveseat Sofa",
+        "productPrice": {
+            "current": "99.00",
+            "old": "199.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/basket.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 3,
+        "productName": "Basket",
+        "productPrice": {
+            "current": "25.00",
+            "old": "50.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/lamp.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "new"
+            }
+        ],
+        "productRate": 3,
+        "productName": "Lamp",
+        "productPrice": {
+            "current": "99.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/lamp-2.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "discount",
+                "value": -50
+            }
+        ],
+        "productRate": 3,
+        "productName": "Table Lamp",
+        "productPrice": {
+            "current": "99.00",
+            "old": "199.00"
+        }
+    },
+    {
+        "productImgSrc": "img/product/basket.png",
+        "productImgAlt": "Alt text",
+        "lables": [
+            {
+                "name": "new"
+            }
+        ],
+        "productRate": 5,
+        "productName": "Lola Basket",
+        "productPrice": {
+            "current": "5.00"            
+        }
+    }
+]

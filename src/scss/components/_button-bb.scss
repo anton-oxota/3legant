@@ -1,0 +1,40 @@
+.button-bb {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #141718;
+    text-decoration: unset;
+    border-bottom: 1px solid #141718;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: -0.4px;
+
+    transition: .15s all;
+    margin-right: 4px;
+
+    &--blue {
+        color: var(--Blue, #377DFF);
+        border-bottom: 1px solid var(--Blue, #377DFF);
+
+        path {
+            stroke: var(--Blue, #377DFF);
+        }
+    }
+
+    &:hover {
+        gap: 8px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .button-bb {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

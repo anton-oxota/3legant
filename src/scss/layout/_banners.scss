@@ -1,0 +1,8 @@
+.banners {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 548px);
+        grid-template-rows: repeat(2, 319px);
+        gap: 24px;
+    }
+}

@@ -1,0 +1,23 @@
+[data-interface-button] {
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    gap: 5px;
+
+    .counter {
+        width: 20px;
+        height: 20px;
+        background-color: #000;
+        border-radius: 100%;
+        color: var(--White, #FFF);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 10px;
+        /* 83.333% */
+    }
+}

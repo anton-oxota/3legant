@@ -1,0 +1,9 @@
+.values {
+    padding: 48px 0;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
+}

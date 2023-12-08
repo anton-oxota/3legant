@@ -1,0 +1,25 @@
+.values-item {
+    width: 262px;
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 48px 32px;
+    background: var(--neutral-02100, #F3F5F7);
+
+    &__capture {
+        margin-top: 16px;
+    }
+
+    &__descr {
+        margin-top: 8px;
+        color: var(--neutral-04100, #6C7275);
+
+        /* Caption */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+}

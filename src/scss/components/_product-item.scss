@@ -1,0 +1,147 @@
+.product-item {
+    width: 262px;
+
+    &__card {
+        position: relative;
+        width: 100%;
+        height: 349px;
+
+        &:hover {
+            .product-item__add-to-favorite {
+                visibility: visible;
+            }
+
+            .product-item__add-to-cart {
+                visibility: visible;
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__lables {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__label {
+        width: fit-content;
+        padding: 4px 14px;
+        background-color: var(--White);
+        border-radius: 4px;
+
+        color: var(--neutral-07100, #141718);
+        /* Hairline 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        /* 100% */
+        text-transform: uppercase;
+
+        &--green {
+            background: #38CB89;
+            color: var(--White)
+        }
+    }
+
+    &__add-to-cart {
+        visibility: hidden;
+
+        position: absolute;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: calc(100% - 30px);
+        height: 46px;
+        padding: 8px 24px;
+
+        border: none;
+        border-radius: 8px;
+        background: var(--neutral-07100, #141718);
+
+        /* Shadow/01 */
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.04);
+
+        color: var(--neutral-01100, #FEFEFE);
+        cursor: pointer;
+    }
+
+
+    &__add-to-favorite {
+        visibility: hidden;
+
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        width: 32px;
+        height: 32px;
+        background-color: var(--White);
+        border: none;
+        border-radius: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    &__info {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__rate {
+        display: flex;
+        gap: 2px;
+    }
+
+    &__name {
+        color: var(--neutral-07100, #141718);
+
+        /* Body 2 (Semi) */
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+    &__price {
+        color: var(--neutral-07100, #141718);
+
+        /* Caption 1 (Semi) */
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        /* 157.143% */
+
+        span {
+            color: var(--neutral-04100, #6C7275);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            /* 157.143% */
+            text-decoration: line-through;
+
+            margin-left: 12px;
+        }
+    }
+}

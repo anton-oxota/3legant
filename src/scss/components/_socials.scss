@@ -1,0 +1,16 @@
+.socials {
+    &__wrapper {
+        display: flex;
+        gap: 24px;
+
+        list-style: none;
+    }
+
+    &__link {
+        display: block;
+
+        svg {
+            display: block;
+        }
+    }
+}

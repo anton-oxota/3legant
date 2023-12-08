@@ -1,0 +1,43 @@
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 40px;
+    width: 100%;
+    background: var(--neutral-02100, #F3F5F7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    z-index: 10;
+
+    &__text {
+        color: #343839;
+        /* Caption 1 (Semi) */
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        /* 157.143% */
+    }  
+
+    &__close-button {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+        display: block;
+
+        background-color: unset;
+        border: unset;
+
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,49 @@
+.sale {
+    background: var(--neutral-02100, #F3F5F7);
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 73px;
+    }
+
+    &__bg {
+        aspect-ratio: 720 / 532;
+    }
+
+    &__lable {
+        color: var(--Blue, #377DFF);
+
+        /* Hairline 1 */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        /* 100% */
+        text-transform: uppercase;
+    }
+
+    &__title {
+        margin-top: 16px;        
+    }
+
+    &__text {
+        margin-top: 16px;
+
+        color: var(--neutral-07100, #141718);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Body 1 */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+    }
+
+    &__link {
+        margin-top: 24px;
+    }
+}
