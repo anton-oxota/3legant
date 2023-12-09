@@ -16,6 +16,10 @@ function renderNewArrivals() {
                 productCaruselWrapper.append(product.productItem);
             });
 
+            window.addEventListener('resize', () => {
+                scroll();
+            })
+
             scroll();
 
         })
